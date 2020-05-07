@@ -4,27 +4,22 @@
     <meta charset="utf-8">
     <title></title>
 
-    <?php include_once "db.php" ?>
+    <?php include_once "db.php";
+    ?>
 
   </head>
   <body>
-    <h2>
+
       <?php
+
       foreach ($googlefaq as $domanda) {
-        echo $domanda["domanda"] . "<br>";
+        $h1 = $domanda["domanda"];
+        $p = $domanda["risposta"];
+        echo "<h1>$h1</h1>";
+        echo "<p> $p</p>";
       }
        ?>
 
-    </h2>
-
-    <p>
-      <?php
-      foreach ($googlefaq as $risposta) {
-          echo $risposta["risposta"]. "<br>";
-      }
-
-        ?>
-    </p>
 
 
   </body>
