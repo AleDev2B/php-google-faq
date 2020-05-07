@@ -3,10 +3,23 @@
   padding:0;
   box-sizing: border-box;
   border: 1px solid grey;
+  font-family: 'Google Sans',sans-serif;
 }
 
 .container{
   margin:auto;
   width: 80vw;
   margin-top: 30px;
+}
+
+h1{
+  font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+}
+
+p{
+  font-family:Roboto, arial, sans-serif;
+font-size:14px;
+font-weight:400;
 }

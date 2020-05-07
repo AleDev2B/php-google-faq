@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>Domande frequenti – Privacy e termini – Google</title>
 
     <?php include_once "db.php";
     ?>
 
   </head>
   <body>
+    <header>
+      <div class="logo">
+
+      </div>
+    </header>
 
     <div class="container">
       <?php
